@@ -1,6 +1,6 @@
 <?php
-if (isset($footer)) $footer = translate('footer', $language);
-if (isset($menu)) $menu = translate('menu', $language);
+if (!isset($footer)) $footer = translate('footer', $language);
+if (!isset($menu)) $menu = translate('menu', $language);
 ?>
 <div id="Footer" style="position:relative;display:block;left:none;right:none;top:none;margin-top:30px;">
 	<footer style="position:relative;">
