@@ -1,5 +1,5 @@
 <?php
-if (isset($menu)) $menu = translate('menu', $language);
+if (!isset($menu)) $menu = translate('menu', $language);
 ?>
 <input type="checkbox" nostyle="true" id="responsiveMenuToggle" />
 <label for="responsiveMenuToggle" id="responsiveMenuToggleButton"></label>
