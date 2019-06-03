@@ -34,9 +34,9 @@ if (!isset($menu)) $menu = translate('menu', $language);
 		<div id="languages"> 
 			<div id="selectLanguage-wrap">
 				<select id="selectLanguage">
-					<option name="fr"<?php if ($language == "fr") echo ' selected="selected"'; ?>>Français</option>
-					<option name="en"<?php if ($language == "en") echo ' selected="selected"'; ?>>English</option>
-					<option name="es"<?php if ($language == "es") echo ' selected="selected"'; ?>>Espanõl</option>
+					<option name="fr"<?php if ($language == "fr") echo ' selected'; ?>>Français</option>
+					<option name="en"<?php if ($language == "en") echo ' selected'; ?>>English</option>
+					<option name="es"<?php if ($language == "es") echo ' selected'; ?>>Espanõl</option>
 				</select>
 			</div>
 		</div>
